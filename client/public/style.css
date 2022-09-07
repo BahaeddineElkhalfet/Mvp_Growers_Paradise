@@ -1,0 +1,181 @@
+/* title */
+body {
+background-color: #adcfff8d;
+
+}
+
+h1 {
+  cursor: pointer;
+}
+
+h1 span {
+  color: rgb(255, 0, 0);
+}
+
+/* navBar */
+.nav {
+  background-color: #394d61d2;
+  margin: 10px;
+  padding: 10px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-family: "Francois One";
+  border-radius: 20%;
+}
+
+/* nav bar btn */
+
+button {
+  appearance: none;
+  background-color: #FFFFFF;
+  border-style: none;
+  box-shadow: #ADCFFF 0 -12px 6px inset;
+  box-sizing: border-box;
+  color: #000000;
+  cursor: pointer;
+  display: inline-block;
+  font-family: -apple-system, sans-serif;
+  font-size: 0.8rem;
+  font-weight: 700;
+  letter-spacing: -.24px;
+  margin: 0;
+  outline: none;
+  padding: 0.6rem 1.3rem;
+  quotes: auto;
+  text-align: center;
+  text-decoration: none;
+  transition: all .15s;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+}
+
+button:hover {
+  background-color: #FFC229;
+  box-shadow: #FF6314 0 -6px 8px inset;
+  transform: scale(1.125);
+}
+
+button:active {
+  transform: scale(1.025);
+}
+
+@media (min-width: 768px) {
+  .button-73 {
+    font-size: 1.5rem;
+    padding: .75rem 2rem;
+  }
+}
+
+/* form ADD kid */
+.form-style-4 {
+  width: 450px;
+  font-size: 16px;
+  background: #495C70;
+  padding: 30px ;
+  border: 5px solid #53687E;
+  margin-left: 15%;
+}
+
+.form-style-4 input[type=submit],
+.form-style-4 input[type=button],
+.form-style-4 input[type=text],
+.form-style-4 input[type=email],
+.form-style-4 textarea,
+.form-style-4 label {
+  font-family: Georgia, "Times New Roman", Times, serif;
+  font-size: 16px;
+  color: #fff;
+
+}
+
+.form-style-4 label {
+  display: block;
+  margin-bottom: 10px;
+}
+
+.form-style-4 label>span {
+  display: inline-block;
+  float: left;
+  width: 150px;
+}
+
+.form-style-4 input[type=text],
+.form-style-4 input[type=email] {
+  background: transparent;
+  border: none;
+  border-bottom: 1px dashed #83A4C5;
+  width: 275px;
+  outline: none;
+  padding: 0px 0px 0px 0px;
+  font-style: italic;
+}
+
+.form-style-4 textarea {
+  font-style: italic;
+  padding: 0px 0px 0px 0px;
+  background: transparent;
+  outline: none;
+  border: none;
+  border-bottom: 1px dashed #83A4C5;
+  width: 275px;
+  overflow: hidden;
+  resize: none;
+  height: 20px;
+}
+
+.form-style-4 textarea:focus,
+.form-style-4 input[type=text]:focus,
+.form-style-4 input[type=email]:focus,
+.form-style-4 input[type=email] :focus {
+  border-bottom: 1px dashed #D9FFA9;
+}
+
+.form-style-4 input[type=submit],
+.form-style-4 input[type=button] {
+  background: #acb5bf;
+  border: none;
+  padding: 8px 10px 8px 10px;
+  border-radius: 5px;
+  color: #395370;
+}
+
+.form-style-4 input[type=submit]:hover,
+.form-style-4 input[type=button]:hover {
+  background: #394D61;
+}
+
+.home {
+  padding: 5%;
+  margin: 5%;
+  text-indent: 50px;
+  text-align: justify;
+  letter-spacing: 3px;
+  background-color: #394d61d2;
+  color: #FFC229;
+  border-radius: 45%;
+}
+
+.onekid {
+  display: flex;
+  /* align-items:flex-end; */
+  /* justify-content: center; */
+  justify-content: space-between;
+  background-color: #71849796;
+  width: 30%;
+  height: 30%;
+  margin-left: 42%;
+
+}
+.onelab {
+  display: flex;
+  /* align-items:flex-end; */
+  /* justify-content: center; */
+  justify-content: space-between;
+  background-color: #71849796;
+  width: 20%;
+  height: 20%;
+  margin-left: 75%;
+
+}
